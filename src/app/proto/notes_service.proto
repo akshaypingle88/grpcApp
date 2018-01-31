@@ -8,17 +8,9 @@ message Note {
     string author = 3;
 }
 
-message Note1 {
-    string name = 1;
-}
-
 message AddNoteRequest {
     string body = 1;
     string author = 2;
-}
-
-message SayRequest {
-    string name = 1;
 }
 
 message GetNotesRequest {}
@@ -33,7 +25,6 @@ message DeleteNoteRequest {
 
 service NoteService {
     rpc AddNote(AddNoteRequest) returns (Note){}
-    rpc SayNote(SayRequest) returns (Note1){}
     rpc GetNotes(GetNotesRequest) returns (GetNotesResponse){}
     rpc DeleteNote(DeleteNoteRequest) returns (Note){}
 }

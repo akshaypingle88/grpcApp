@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.4.
 
+We are using different technologies which is mention below:
+1. Front side Angular 5 + gRPC client side (npm grpc-web-client)
+2. Server side GO language + gRPC server side
+3. Database Mongo DB
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

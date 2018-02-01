@@ -29,13 +29,13 @@ We are using different technologies which is mention below:
 4. ng serve
 5. Install Mongodb and start mongo service 
 6. go run src/app/server/server.go
-  
-  PreInstallation of GO lang:
-  1. go get github.com/golang/protobuf/proto
-  2. go get gopkg.in/mgo.v2/bson
-  3. go get gopkg.in/mgo.v2
-  4. go get github.com/improbable-eng/grpc-web/go/grpcweb
-  5. go get github.com/prometheus/common/log
+	
+	PreInstallation of GO lang:
+  	1. go get github.com/golang/protobuf/proto
+  	2. go get gopkg.in/mgo.v2/bson
+  	3. go get gopkg.in/mgo.v2
+  	4. go get github.com/improbable-eng/grpc-web/go/grpcweb
+  	5. go get github.com/prometheus/common/log
 
 ## Development server
 

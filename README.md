@@ -2,13 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.4.
 
-# Needed technologies
+# Useded technologies
 
-We are using different technologies which is mention below:
-1. Front side Angular 5 + gRPC client side (npm grpc-web-client)
-2. Server side GO language + gRPC server side
+We are using below technologies:
+1. Front side: Angular 5 + gRPC client side [npm grpc-web-client](https://www.npmjs.com/package/grpc-web-client)
+2. Server side: GO language + [gRPC server side](https://grpc.io/docs/quickstart/go.html)
 3. Database Mongo DB
-4. Basic platform stand on .proto file
+4. Basic platform is .proto file
+	protoc (provider google proto buff) compiler is multiple language interpreter for .proto file who can convert the compatible code into required languages like TypeScript, Java, Javascript, C#, Python, C++ and etc. 
 
 # Setup project and How to run
 
@@ -36,6 +37,9 @@ We are using different technologies which is mention below:
   	3. go get gopkg.in/mgo.v2
   	4. go get github.com/improbable-eng/grpc-web/go/grpcweb
   	5. go get github.com/prometheus/common/log
+
+7. Create .ts or .js files from .proto file
+	[ts-protoc-gen](https://www.npmjs.com/package/ts-protoc-gen)
 
 ## Development server
 
